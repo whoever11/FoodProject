@@ -4,17 +4,16 @@ export default function NavBar(){
 
     return(
         <nav>
-    <ul>    
-        <li>
-        <Link to="/recipe">Meal</Link>
-      </li>
-      <li>
-        <Link to="/">home</Link>
-      </li>
-
-      <li>
-        <Link to="/cocktail">cocktail</Link>
-      </li>
+    <ul>   
+       
+        <Link to="/"> Home </Link>
+       
+        <Link to="/recipe">  Meal  </Link>
+      
+        <Link to="/search">  Search  </Link>
+     
+        <Link to="/cocktail">  cocktail  </Link>
+  
     </ul>
   </nav>
     )
