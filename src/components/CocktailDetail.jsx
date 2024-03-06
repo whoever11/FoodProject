@@ -7,7 +7,7 @@ const CocktailDetails = () => {
   const [cocktail, setCocktail] = useState(null);
 
   useEffect(() => {
-    axios.get(`www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`)
+    axios.get(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`)
       .then(response => setCocktail(response.data.drinks[0]))
       .catch(error => console.error('Error fetching data: ', error));
   }, [id]);

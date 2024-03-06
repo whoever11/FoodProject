@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import SearchBar from './SearchBar';
 import RecipeList from './RecipeList';
-import CocktailList from './CocktailList'; 
+import CocktailListS from './CocktailListS'; 
 
 const Home = () => {
     const [recipes, setRecipes] = useState([]);
@@ -37,7 +37,7 @@ const Home = () => {
         <div>
             <SearchBar setSearchTerm={setSearchTerm} setSearchType={setSearchType} />
             <RecipeList recipes={recipes} />
-            <CocktailList cocktails={cocktails} />
+            <CocktailListS cocktails={cocktails} />
         </div>
     );
 };

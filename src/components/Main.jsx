@@ -3,6 +3,7 @@ import Home from './Home';
 import RecipeDetail from './RecipeDetail';
 import CocktailDetail from './CocktailDetail';
 import CocktailList from './CocktailList';
+import Recipe from './Recipe';
 
 export default function Main() {
     return (
@@ -12,6 +13,7 @@ export default function Main() {
                 <Route path="/recipe/:id" element={<RecipeDetail />} />
                 <Route path="/cocktail/:id" element={<CocktailDetail />} />
                 <Route path="/cocktail" element={<CocktailList />} />
+                <Route path="/recipe" element={<Recipe />} />
             </Routes>
         </div>
     );
