@@ -5,6 +5,7 @@ import CocktailDetail from './CocktailDetail';
 import CocktailList from './CocktailList';
 import Recipe from './Recipe';
 import Search from './Search';
+import Category from './CategoryPage';
 
 export default function Main() {
     return (
@@ -16,6 +17,7 @@ export default function Main() {
                 <Route path="/cocktail/:id" element={<CocktailDetail />} />
                 <Route path="/cocktail" element={<CocktailList />} />
                 <Route path="/recipe" element={<Recipe />} />
+                <Route path="/category" element={<Category />} />
             </Routes>
         </div>
     );
