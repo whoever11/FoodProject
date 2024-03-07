@@ -18,10 +18,8 @@ git clone
 cd [repository_name]
 
 # Install dependencies
-npm install
+npm i
 
-# Run the application
-npm start
 # Usage
 To use the Food API website, simply navigate to the homepage after installation. From there, you can:
 Browse categories to explore different meals and recipes.
@@ -40,15 +38,18 @@ In-depth information on various ingredients used in the meals.
 A selection of drink suggestions to pair with meals.
 
 # Project Planning
-Objective: Our goal was to make a website with the food api to show the data and display it in a easy to read way.
-Target Audience: Is anyone who likes food or wants to know how to make the food.
-Features: different ways to search and find the food based on ingredients, meals or category and drinks.
+# Objective: 
+Our goal was to make a website with the food api to show the data and display it in a easy to read way.
+# Target Audience:
+Is anyone who likes food or wants to know how to make the food.
+# Features: 
+different ways to search and find the food based on ingredients, meals or category and drinks.
 # Design
 Wireframes: https://www.figma.com/file/aNGOJes8rOwdKDIUMLfplF/food-whiteboarding?type=whiteboard&node-id=0%3A1&t=3BfJQyybjGLWhx7G-1 
-Development Phases
-Phase 1: Setup and basic structure development.
-Phase 2: API integration and data fetching.
-Phase 3: Implementing interactive features and user interfaces.
-Phase 4: Testing and debugging.
-Phase 5: Deployment and monitoring.
+# Development Phases
+# Phase 1: Setup and basic structure development.
+# Phase 2: API integration and data fetching.
+# Phase 3: Implementing interactive features and user interfaces.
+# Phase 4: Testing and debugging.
+# Phase 5: Deployment and monitoring.
 
