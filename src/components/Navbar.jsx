@@ -7,12 +7,14 @@ export default function NavBar(){
     <ul>   
        
         <Link to="/"> Home </Link>
+
+        <Link to="/search">  Search  </Link>
        
         <Link to="/recipe">  Meal  </Link>
-      
-        <Link to="/search">  Search  </Link>
-     
+       
         <Link to="/cocktail">  cocktail  </Link>
+
+        <Link to="/category">  Category  </Link>
   
     </ul>
   </nav>
