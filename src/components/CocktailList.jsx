@@ -12,12 +12,16 @@ const CocktailList = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
       {cocktails.map(cocktail => (
-        <div key={cocktail.idDrink}>
-          <Link to={`/cocktail/${cocktail.idDrink}`}>
-            <img src={cocktail.strDrinkThumb} alt={cocktail.strDrink} />
-            <h3>{cocktail.strDrink}</h3>
+        <div key={cocktail.idDrink} style={{ width: '50%', padding: '10px' }}>
+          <Link to={`/cocktail/${cocktail.idDrink}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+            <img
+              src={cocktail.strDrinkThumb}
+              alt={cocktail.strDrink}
+              style={{ width: '100%', height: 'auto', marginBottom: '10px' }}
+            />
+            <h3 style={{ textAlign: 'center' }}>{cocktail.strDrink}</h3>
           </Link>
         </div>
       ))}

@@ -12,12 +12,16 @@ const Recipe = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
       {recipes.map(recipe => (
-        <div key={recipe.idMeal}>
+        <div key={recipe.idMeal} style={{ width: '45%', marginBottom: '20px' }}>
           <Link to={`/recipe/${recipe.idMeal}`}>
-            <img src={recipe.strMealThumb} alt={recipe.strMeal} />
-            <h3>{recipe.strMeal}</h3>
+            <img
+              src={recipe.strMealThumb}
+              alt={recipe.strMeal}
+              style={{ width: '100%', height: 'auto', marginBottom: '10px' }}
+            />
+            <h3 style={{ textAlign: 'center' }}>{recipe.strMeal}</h3>
           </Link>
         </div>
       ))}
