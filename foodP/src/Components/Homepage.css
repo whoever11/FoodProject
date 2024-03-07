@@ -1,0 +1,121 @@
+.home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-page .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .home-page .overlap-group {
+    height: 1054px;
+    position: relative;
+    top: -30px;
+    width: 1463px;
+  }
+  
+  .home-page .image {
+    height: 1054px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .home-page .text-wrapper {
+    color: #ffffff;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 1223px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    top: 29px;
+    white-space: nowrap;
+    width: 240px;
+  }
+  
+  .home-page .div {
+    color: #ffffff;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 641px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    top: 29px;
+    white-space: nowrap;
+    width: 188px;
+  }
+  
+  .home-page .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 817px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    top: 29px;
+    white-space: nowrap;
+    width: 240px;
+  }
+  
+  .home-page .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 1057px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    top: 29px;
+    white-space: nowrap;
+    width: 170px;
+  }
+  
+  .home-page .welcome-to-MACK-meal {
+    color: #ffffff;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    left: 207px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    top: 281px;
+  }
+  
+  .home-page .buttonlayout {
+    height: 84px;
+    left: 139px;
+    position: absolute;
+    top: 910px;
+    width: 292px;
+  }
+  
+  .home-page .buttontext {
+    color: #000000;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 148px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    text-align: center;
+    top: 909px;
+    white-space: nowrap;
+    width: 274px;
+  }

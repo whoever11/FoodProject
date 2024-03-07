@@ -1,0 +1,281 @@
+.ingredients-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+        background-image: url('https://img.freepik.com/premium-photo/dark-old-brown-wooden-desk-table-texture-surface-can-be-used-as-space-your-text-image-top-view-copy-space_24901-3245.jpg');
+        background-size: cover; /* Ensure the image covers the component area */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        /* Other styles */
+      }
+  
+  .ingredients-page .overlap-wrapper {
+    background-color: #ffffff;
+    height: 1024px;
+    width: 1440px;
+  }
+  
+  .ingredients-page .overlap {
+    height: 1025px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .ingredients-page .group {
+    width: 198px; /* Width of the group */
+    height: 134px; /* Height of the group */
+    position: relative; /* Allows absolute positioning inside */
+    overflow: hidden; /* Ensures content fits within the box */
+    margin: 10px; /* Optional: Adds some space between boxes */
+  }
+  
+  .ingredients-page .image {
+    width: 100%; /* Makes image fill the container width */
+    height: auto; /* Adjusts height to maintain aspect ratio */
+    position: absolute; /* Position absolutely within `.group` */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers image within the container */
+  }
+  
+  
+  .ingredients-page .overlap-group {
+    height: 234px;
+    position: relative;
+    width: 196px;
+  }
+  
+  .ingredients-page .text-wrapper {
+    color: #000000;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 4px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    text-align: center;
+    top: 158px;
+    white-space: nowrap;
+    width: 192px;
+  }
+  
+  .ingredients-page .ellipse {
+    background-color: #d9d9d9;
+    border-radius: 98px;
+    height: 196px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 196px;
+  }
+  
+  .ingredients-page .overlap-group-wrapper {
+    height: 234px;
+    left: 1198px;
+    position: absolute;
+    top: 707px;
+    width: 198px;
+  }
+  
+  .ingredients-page .div-wrapper {
+    height: 234px;
+    left: 925px;
+    position: absolute;
+    top: 707px;
+    width: 198px;
+  }
+  
+  .ingredients-page .div {
+    height: 234px;
+    left: 622px;
+    position: absolute;
+    top: 717px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-2 {
+    height: 234px;
+    left: 335px;
+    position: absolute;
+    top: 717px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-3 {
+    height: 234px;
+    left: 43px;
+    position: absolute;
+    top: 717px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-4 {
+    height: 234px;
+    left: 1198px;
+    position: absolute;
+    top: 408px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-5 {
+    height: 234px;
+    left: 921px;
+    position: absolute;
+    top: 396px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-6 {
+    height: 234px;
+    left: 626px;
+    position: absolute;
+    top: 396px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-7 {
+    height: 234px;
+    left: 331px;
+    position: absolute;
+    top: 396px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-8 {
+    height: 234px;
+    left: 47px;
+    position: absolute;
+    top: 396px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-9 {
+    height: 234px;
+    left: 1198px;
+    position: absolute;
+    top: 109px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-10 {
+    height: 234px;
+    left: 910px;
+    position: absolute;
+    top: 109px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-11 {
+    height: 234px;
+    left: 622px;
+    position: absolute;
+    top: 109px;
+    width: 198px;
+  }
+  
+  .ingredients-page .group-12 {
+    height: 234px;
+    left: 331px;
+    position: absolute;
+    top: 109px;
+    width: 198px;
+  }
+  
+  .ingredients-page .text-wrapper-2 {
+    color: #000000;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 303px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 840px;
+  }
+  
+  .box {
+    height: 898px;
+    width: 596px;
+  }
+  
+  .box .card-template {
+    height: 898px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 602px;
+  }
+  
+  .box .overlap-group {
+    height: 898px;
+    position: relative;
+    width: 596px;
+  }
+  
+  .box .card-info {
+    background-color: #d9d9d9;
+    height: 884px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 596px;
+  }
+  
+  .box .text-wrapper {
+    color: #000000;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 378px;
+  }
+  
+  .box .image {
+    background-color: #d0b4b4;
+    height: 356px;
+    left: 106px;
+    position: absolute;
+    top: 110px;
+    width: 378px;
+  }
+  
+  .box .div {
+    color: #151414;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 130px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    text-align: center;
+    top: 444px;
+    white-space: nowrap;
+    width: 330px;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Ribeye-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 130px;
+    letter-spacing: 0;
+    line-height: 104px;
+    position: absolute;
+    text-align: center;
+    top: 522px;
+    width: 354px;
+  }
