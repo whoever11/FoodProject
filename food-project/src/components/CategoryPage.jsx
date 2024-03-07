@@ -1,31 +1,44 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { BASE_URL } from '../globals';
-import { useParams, Link } from 'react-router-dom';
 
 const CategoryPage = () => {
-    const [category, setCategory] = useState(null);
-    const { id } = useParams();
+  const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const getCategory = async () => {
-          const categoryId = id === "0" ? 1 : parseInt(id) + 1;
-            const response = await axios.get(`${BASE_URL}/categories/${categoryId}`);
-            setCategory(response.data);
-        };
-        getCategory();
-    }, [id]);
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        const response = await axios.get('https://www.themealdb.com/api/json/v1/1/categories.php');
+        setCategories(response.data.categories);
+        setLoading(false);
+      } catch (error) {
+        console.error('Error fetching categories:', error);
+        setLoading(false);
+      }
+    };
 
-    return category ? (
-        <div className="category-detail">
-        <h2>Category: {category.strCategory}</h2>
-        <img src={category.strCategoryThumb} alt={category.strCategories} className="thumb-image" />
-        <p>Description: {category.strCategoryDescription}</p>
-        <Link to="/categories">Return to category list</Link>
+    fetchCategories();
+  }, []);
+
+  return (
+    <div>
+      <h1>Meal Categories</h1>
+
+      {loading ? (
+        <p>Loading categories...</p>
+      ) : (
+        <ul>
+          {categories.map(category => (
+            <li key={category.idCategory}>
+              <h3>{category.strCategory}</h3>
+              <img src={category.strCategoryThumb} alt={category.strCategory} />
+              <p>{category.strCategoryDescription}</p>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
-) : (
-    <h3>Loading category...</h3>
-);
+  );
 };
-ß
+
 export default CategoryPage;
