@@ -21,7 +21,7 @@ cd [repository_name]
 npm i
 
 # Usage
-To use the Food API website, simply navigate to the homepage after installation. From there, you can:
+To use the Mack website, simply navigate to the homepage after installation. From there, you can:
 Browse categories to explore different meals and recipes.
 Click on any meal to view its detailed description, including ingredients and preparation steps.
 Discover various drinks that can complement your meal choices.
