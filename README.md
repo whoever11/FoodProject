@@ -47,9 +47,14 @@ different ways to search and find the food based on ingredients, meals or catego
 # Design
 Wireframes: https://www.figma.com/file/aNGOJes8rOwdKDIUMLfplF/food-whiteboarding?type=whiteboard&node-id=0%3A1&t=3BfJQyybjGLWhx7G-1 
 # Development Phases
-# Phase 1: Setup and basic structure development.
-# Phase 2: API integration and data fetching.
-# Phase 3: Implementing interactive features and user interfaces.
-# Phase 4: Testing and debugging.
-# Phase 5: Deployment and monitoring.
+# Phase 1: 
+Setup and basic structure development.
+# Phase 2: 
+API integration and data fetching.
+# Phase 3: 
+Implementing interactive features and user interfaces.
+# Phase 4: 
+Testing and debugging.
+# Phase 5: 
+Deployment and monitoring.
 
