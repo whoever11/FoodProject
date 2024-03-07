@@ -22,24 +22,28 @@ npm install
 
 # Run the application
 npm start
-#Usage
+# Usage
 To use the Food API website, simply navigate to the homepage after installation. From there, you can:
 Browse categories to explore different meals and recipes.
 Click on any meal to view its detailed description, including ingredients and preparation steps.
 Discover various drinks that can complement your meal choices.
 Utilize the search functionality to find specific meals or ingredients.
 Features
-#Homepage: An engaging landing page with quick access to all features.
+# Homepage: 
+An engaging landing page with quick access to all features.
 Categories: Organized meal categories for easy exploration.
-#Meal Descriptions: Detailed pages for each meal, including photos, ingredients, and cooking instructions.
-#Ingredients: In-depth information on various ingredients used in the meals.
-#Drinks: A selection of drink suggestions to pair with meals.
-Planning and Development
-#Project Planning
+# Meal Descriptions: 
+Detailed pages for each meal, including photos, ingredients, and cooking instructions.
+# Ingredients: 
+In-depth information on various ingredients used in the meals.
+# Drinks: 
+A selection of drink suggestions to pair with meals.
+
+# Project Planning
 Objective: Our goal was to make a website with the food api to show the data and display it in a easy to read way.
 Target Audience: Is anyone who likes food or wants to know how to make the food.
 Features: different ways to search and find the food based on ingredients, meals or category and drinks.
-#Design
+# Design
 Wireframes: https://www.figma.com/file/aNGOJes8rOwdKDIUMLfplF/food-whiteboarding?type=whiteboard&node-id=0%3A1&t=3BfJQyybjGLWhx7G-1 
 Development Phases
 Phase 1: Setup and basic structure development.
